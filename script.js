@@ -52,7 +52,7 @@ function checkLength(input,min,max){
 }
 
 function checkPass(input1, input2) {
-    if (input1.val() !== input2.val()){
+    if (input2.val() !== input1.val()){
         showerror(input2, 'رمز عبور مطاقبت ندارد!');
     }
 }
