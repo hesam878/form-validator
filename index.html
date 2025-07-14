@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <title>فرم ثبت نام</title>
+    </head>
+    <body>
+<div class="container">
+      <form id="form" class="form">
+        <h2>ثبت نام</h2>
+        <div class="form-control">
+          <label for="username">نام کاربری</label>
+          <input type="text" id="user" placeholder="نام کاربری را وارد کنید" maxlength="15"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">ایمیل</label>
+          <input type="text" id="email" placeholder="ایمیل را وارد کنید" maxlength="200"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">رمز عبور</label>
+          <input type="password" id="pass" placeholder="رمز عبور را وارد کنید" maxlength="25"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">تکرار رمز عبور</label>
+          <input type="password"id="pass2"placeholder="رمز عبور را دوباره وارد کنید" maxlength="25"/>
+          <small>Error message</small>
+        </div>
+        <button type="submit">ثبت نام</button>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
